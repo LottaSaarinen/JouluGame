@@ -8,7 +8,7 @@ function Booster(props) {
   
     return (
       <div className="booster">
-        {value} lemon / click
+        {value} 🎁 / ▶📲
       </div>
     );
   

@@ -5,7 +5,7 @@ import getPurchasableItems from './utils/getPurchasableItems';
 import round from './utils/round';
 import './App.css'
 import useLocalStorage from './utils/useLocalStorage';
-
+import GameMusic from './components/GameMusic';
 
 function App() {
 
@@ -24,7 +24,26 @@ function App() {
   //const [stats, setStats] = useState(initialstats);
     // Luodaan taltio, johon tallennetaan pelin laskennalliset tiedot.
     const [stats, setStats, resetStats] = useLocalStorage('lemon-stats',initialstats);
+    const [gameMessage, setGameMessage] = useState(''); // Viesti pelaajalle
 
+    // Satunnainen tapahtuma, joka voi antaa bonuksia
+    const triggerRandomBonus = () => {
+      const randomNum = Math.random(0,1000); // Generoi satunnainen luku välillä 0 ja 1
+  
+      if (randomNum < 0.1) { // 10% mahdollisuus bonukseen
+        const bonus = Math.floor(Math.random() * 100) + 1; // Satunnainen bonus 1-10 sitruunaa
+        setGameMessage(`Bonus! Saat ${bonus} toimitukselle lisää apua!`);
+        return bonus; // Palauttaa bonuksen määrän
+      }
+      return 0; // Ei bonusta
+    };
+  
+    // Käsitellään sitruunan klikkaus
+    const handleLemonClick = () => {
+      const bonus = triggerRandomBonus(); // Kutsu satunnaista bonusta
+      setLemons(lemons + 1 + bonus); // Lisää 1 sitruuna ja mahdollinen bonus
+    };
+  
     // Luodaan taltio, johon tallennetaan tuotelista.
     const [storeitems,setStoreitems, resetStoreitems] = useLocalStorage('lemon-items',items);
   

@@ -14,7 +14,7 @@ Tämän materiaalin on tuottanut Pekka Tapio Aalto
  ja se on jaettu Creative Commons Nimeä 4.0 Kansainvälinen -lisenssillä.
 </Credits>
 
-          <Header>lemon clicker</Header>
+          <Header>JouluGame</Header>
           <Balance total={props.stats.balance} />
     
           <Lemon onClick={props.handleClick} />

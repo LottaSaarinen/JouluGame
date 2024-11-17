@@ -1,6 +1,6 @@
 {
-  "name": "Lemon Clicker",
-  "short_name": "Lemonade",
+  "name": "JouluGame",
+  "short_name": "JouluGame",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

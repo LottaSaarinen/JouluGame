@@ -1,128 +1,130 @@
 export default [
     { 
-      id: "lemontree",
-      name: "Lemon tree",
+      id: "sukka",
+      name: "Joulusukka",
       qty: 0,
       baseprice: 10,
       price: 10,
       multiplier: 0.2,
-      image: "lemontree.svg"
+      image: "sukka.svg"
     },
     { 
-      id: "blender",
-      name: "Blender",
+      id: "lapio",
+      name: "Lapio",
       qty: 0,
       baseprice: 70,
       price: 70,
       multiplier: 2,
-      image: "blender.svg"
+      image: "lapio.svg"
     },
     { 
-      id: "carbonator",
-      name: "Carbonator",
+      id: "keksi",
+      name: "Keksi",
       qty: 0,
       baseprice: 490,
       price: 490,
       multiplier: 10,
-      image: "carbonator.svg"
+      image: "keksi.svg"
     },
     { 
-      id: "bottler",
-      name: "Bottler",
+      id: "sakki",
+      name: "Lahjasäkki",
       qty: 0,
       baseprice: 3400,
       price: 3400,
       multiplier: 50,
-      image: "bottler.svg"
+      image: "sakki.svg"
     },
+   
     { 
-      id: "truck",
-      name: "Truck",
+      id: "sukset",
+      name: "Sukset",
       qty: 0,
       baseprice: 24000,
       price: 24000,
       multiplier: 235,
-      image: "truck.svg"
+      image: "sukset.svg"
     },
+     
     { 
-      id: "spring",
-      name: "Spring",
+      id: "reki",
+      name: "Reki",
       qty: 0,
+      multiplier: 5600,
       baseprice: 169000,
       price: 169000,
-      multiplier: 1150,
-      image: "spring.svg"
-    },
+      image: "reki.svg"
+    }, 
     { 
-      id: "sugarcane",
-      name: "Sugar cane field",
+      id: "poro",
+      name: "Poro",
       qty: 0,
       baseprice: 1200000,
       price: 1200000,
-      multiplier: 5600,
-      image: "sugarcane.svg"
-    },   
+      multiplier: 1150,
+      image: "poro.svg"
+    },
     { 
-      id: "warehouse",
-      name: "Warehouse",
+      id: "auraaja",
+      name: "Auraaja",
       qty: 0,
       baseprice: 8400000,
       price: 8400000,
       multiplier: 27500,
-      image: "warehouse.svg"
+      image: "auraaja.svg"
     }, 
     { 
-      id: "lab",
-      name: "Lab",
+      id: "tonttu",
+      name: "Tonttu",
       qty: 0,
       baseprice: 59000000,
       price: 59000000,
       multiplier: 135000,
-      image: "lab.svg"
+      image: "tonttu.svg"
     },
     { 
-      id: "secret",
-      name: "Secret ingredient",
+      id: "pukki",
+      name: "Joulupukki",
       qty: 0,
       baseprice: 417000000,
       price: 417000000,
       multiplier: 650000,
-      image: "secret.svg"
+      image: "pukki.svg"
     },
     {
-      id: "power",
-      name: "Power plant",
+      id: "varasto",
+      name: "Lahjapaja",
       qty: 0,
       baseprice: 2950000000,
       price: 2950000000,
       multiplier: 3200000,
-      image: "power.svg"
+      image: "varasto.svg"
     },
     {
-      id: "park",
-      name: "Amusement park",
+      id: "lammot",
+      name: "Pajan lämmitin",
       qty: 0,
       baseprice: 20800000000,
       price: 20800000000,
       multiplier: 15600000,
-      image: "park.svg"
+      image: "lammot.svg"
     },
     {
-      id: "lemonai",
-      name: "LemonAI",
+      id: "ai",
+      name: "AI",
       qty: 0,
       baseprice: 147000000000,
       price: 147000000000,
       multiplier: 76100000,
-      image: "lemonai.svg"
+      image: "ai.svg"
     },
     {
-      id: "accelerator",
-      name: "Particle accelerator",
+      id: "enkeli",
+      name: "Enkeli",
       qty: 0,
       baseprice: 1040000000000,
       price: 1040000000000,
       multiplier: 371000000,
-      image: "accelerator.svg"
+      image: "enkeli.svg"
     },
   ];

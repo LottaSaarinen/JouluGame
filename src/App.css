@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto+Condensed:wght@400;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto+Condensed:wght@400;700&display=swap');
 
 /* -- Värimäärittelyt ------------------------------------------------- */
 
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Henny+Penny&family=Mountains+of+Christmas&family=Rubik+Gemstones&family=Rubik+Moonrocks&family=Rubik+Puddles&family=Rubik+Vinyl&display=swap');
+
+
 :root {
-  --primary: #FFB600;
-  --secondary: #E84855;
+  --primary: #4a0819;
+  --secondary: #be7379;
   --neutral-lightest: #FFFFFF;
   --neutral-light: #F3F3F3;
-  --neutral: #EBEBEB;
+  --neutral: #567664;
   --neutral-dark: #999999;
-  --neutral-darker: #666666;
-  --neutral-darkest: #000000;
+  --neutral-darker: #65b60e;
+  --neutral-darkest: #f4b8b8;
 }
 
 /* -- yhteiset tyylimääritykset --------------------------------------- */
@@ -24,14 +27,20 @@
 body {
   background-color: var(--neutral);             /* sovelluksen taustaväri */
   color: var(--neutral-darker);                   /* sovelluksen tekstiväri */
-  font-family: 'Roboto Condensed', sans-serif;  /* sovelluksen fontti */
+  font-family: 'Boogaloo', cursive;    /* sovelluksen fontti */
   font-size: 1.25em;                            /* sovelluksen tekstin koko */
 }
 
 h1 {
-  font-family: 'Boogaloo', cursive;             /* otsikon fontti */
-  font-weight: normal;                          /* otsikon paksuus */
-}
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal
+  }
+  
+ /* font-family: 'Boogaloo', cursive;   
+           /* otsikon fontti */
+                         /* otsikon paksuus */
+
 
 /* -- Responsiivinen ulkoasu ------------------------------------------ 
 
@@ -133,6 +142,7 @@ h1 {
 
 .menu div {
   position: relative;                  /* menuelementin sijainniksi suhteellinen (menu_badge) */
+
 }
 
 .menu_badge {
@@ -220,6 +230,8 @@ a.active .menu_badge {
 .lemon img {
   width: 100%;                         /* skaalataan kuva täyttämään kuvalle varattu alue */
 }
+
+
 
 .lemon img:active {
   -webkit-animation: beat 0.1s ease-in-out backwards;       /* kuvan animaation */
@@ -347,7 +359,7 @@ a.active .menu_badge {
 
 .reset button {                                  
   background-color: var(--secondary);            /* napin taustaväri */
-  color: #FFFFFF;                              /* napin tekstiväri */
+  color: #71d6d9;                              /* napin tekstiväri */
   padding: 0.75em;                               /* napin täyte */
   border: none;                                  /* napilla ei ole kehysviivaa */
   border-radius: 5px;                            /* napin reunan pyöristys */
